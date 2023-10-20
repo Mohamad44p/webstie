@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: palevioletred;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  font-family: Roboto, Arial;
+  
+}
+
+body.visible {
+  opacity: 1;
+}
+
+.container {
+  background-color: hsl(260, 85%, 10%);
+  margin: 0 auto;
+  padding: 100px;
+  padding-left: 80px;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom:70px;
+  width: 80%;
+  height: auto;
+  box-shadow: 0 0 10px 7px hsl(260, 85%, 10%);
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+ul {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  margin: 18px;
+}
+
+li:hover {
+  background-color: hsl(260, 55%, 57%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#H {
+  color: palevioletred;
+}
+
+#H:hover {
+  background-color: rgb(159, 42, 81);
+}
+
+h3 {
+  color: palevioletred;
+  font-size: 23px;
+}
+
+p {
+  color: white;
+  font-size: 12px;
+}
+
+#Form {
+  float: left;
+  width: 50%;
+}
+
+#Form form {
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  display: inline-block;
+  border: 4px solid hsl(261, 76%, 15%);
+  border-radius: 13px;
+  padding: 10px;
+  background-color: hsl(261, 76%, 15%);
+}
+
+input::placeholder {
+  color: white;
+}
+
+#Form form textarea {
+  border: 4px solid hsl(261, 76%, 15%);
+  border-radius: 13px;
+  padding: 60px;
+  background-color: hsl(261, 76%, 15%);
+}
+
+#Form form button {
+  border: 4px solid palevioletred;
+  border-radius: 13px;
+  padding: 10px;
+  background-color: palevioletred;
+  color: white;
+  display: block;
+}
+
+#Form form button:hover {
+  background-color: rgb(255, 119, 164);
+  cursor: pointer;
+  transform: translate(10px, 10px) rotate(45deg) scale(1.9);
+  transition: transform 0.8s ease-in-out;
+}
+
+i {
+  display: flex;
+  margin: 5px;
+}
+
+.right_section {
+  background-color: hsl(260, 85%, 10%);
+  padding: 10px;
+  box-shadow: 0 0 10px 7px hsl(260, 85%, 10%);
+  width: 50%;
+  margin-bottom: 3px;
+  clear: both;
+}
+.father{
+  float: left;
+  width: 40%;
+}
